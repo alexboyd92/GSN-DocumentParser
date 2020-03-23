@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ARM:Argumentation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ARM="http://schema.omg.org/SACM/1.0/Argumentation" xmi:id="_9uf_QMtYEeiHKZ3-7YKF8g" id="CS3310_F18_GSN_Intro_TestingExample" description="" content="">
+  <argumentElement xsi:type="ARM:Claim" xmi:id="_9uf_QctYEeiHKZ3-7YKF8g" id="G1" description="" content="The Program has been well tested" assumed="false" toBeSupported="false"/>
+  <argumentElement xsi:type="ARM:ArgumentReasoning" xmi:id="_9uf_QstYEeiHKZ3-7YKF8g" id="S1" description="" content="Branch Coverage is considered" describedInference="_9ugmU8tYEeiHKZ3-7YKF8g _9ugmVMtYEeiHKZ3-7YKF8g _9ugmVctYEeiHKZ3-7YKF8g"/>
+  <argumentElement xsi:type="ARM:Claim" xmi:id="_9uf_Q8tYEeiHKZ3-7YKF8g" id="G2" description="" content="Branch 1 in Program has been well tested" assumed="false" toBeSupported="false"/>
+  <argumentElement xsi:type="ARM:Claim" xmi:id="_9uf_RMtYEeiHKZ3-7YKF8g" id="G3" description="" content="Branch 2 in Program has been well tested" assumed="false" toBeSupported="false"/>
+  <argumentElement xsi:type="ARM:Claim" xmi:id="_9uf_RctYEeiHKZ3-7YKF8g" id="G4" description="" content="Branch 3 in Program has been well tested" assumed="false" toBeSupported="false"/>
+  <argumentElement xsi:type="ARM:Claim" xmi:id="_9uf_RstYEeiHKZ3-7YKF8g" id="G5" description="" content="Branch 1 has been passed by  Test Case 1" assumed="false" toBeSupported="false"/>
+  <argumentElement xsi:type="ARM:ArgumentReasoning" xmi:id="_9uf_R8tYEeiHKZ3-7YKF8g" id="S2" description="" content="Random Test Case Generation is used" describedInference="_9ugmVstYEeiHKZ3-7YKF8g"/>
+  <argumentElement xsi:type="ARM:Claim" xmi:id="_9uf_SMtYEeiHKZ3-7YKF8g" id="G6" description="" content="Branch 1 has been passed by test case 2" assumed="false" toBeSupported="false"/>
+  <argumentElement xsi:type="ARM:ArgumentReasoning" xmi:id="_9uf_SctYEeiHKZ3-7YKF8g" id="S3" description="" content="Boundary Values are considered" describedInference="_9ugmV8tYEeiHKZ3-7YKF8g _9ugmWMtYEeiHKZ3-7YKF8g"/>
+  <argumentElement xsi:type="ARM:Claim" xmi:id="_9uf_SstYEeiHKZ3-7YKF8g" id="G7" description="" content="Branch 2 has been passed by test case 3" assumed="false" toBeSupported="false"/>
+  <argumentElement xsi:type="ARM:ArgumentReasoning" xmi:id="_9uf_S8tYEeiHKZ3-7YKF8g" id="S4" description="" content="Random Test Case Generation is used" describedInference="_9ugmWctYEeiHKZ3-7YKF8g"/>
+  <argumentElement xsi:type="ARM:Claim" xmi:id="_9uf_TMtYEeiHKZ3-7YKF8g" id="G8" description="" content="Branch 3 has been passed by test case 4" assumed="false" toBeSupported="false"/>
+  <argumentElement xsi:type="ARM:InformationElement" xmi:id="_9uf_TctYEeiHKZ3-7YKF8g" id="Sn1" description="" content="VV Report TC1" url=""/>
+  <argumentElement xsi:type="ARM:InformationElement" xmi:id="_9uf_TstYEeiHKZ3-7YKF8g" id="Sn2" description="" content="Validation Report for TC2" url=""/>
+  <argumentElement xsi:type="ARM:InformationElement" xmi:id="_9uf_T8tYEeiHKZ3-7YKF8g" id="Sn3" description="" content="Validation Report for TC3" url=""/>
+  <argumentElement xsi:type="ARM:InformationElement" xmi:id="_9ugmUMtYEeiHKZ3-7YKF8g" id="Sn4" description="" content="Validation Report for TC4" url=""/>
+  <argumentElement xsi:type="ARM:InformationElement" xmi:id="_9ugmUctYEeiHKZ3-7YKF8g" id="C1" description="" content="&quot;well tested&quot; is defined by ISO123 chapter 1 section2 paragraph 3" url=""/>
+  <argumentElement xsi:type="ARM:Claim" xmi:id="_9ugmUstYEeiHKZ3-7YKF8g" id="A1" description="" content="Random Test Case Generation can give the highest possibility to show softare errors " assumed="true" toBeSupported="false"/>
+  <argumentElement xsi:type="ARM:AssertedInference" xmi:id="_9ugmU8tYEeiHKZ3-7YKF8g" id="" description="" content="" source="_9uf_Q8tYEeiHKZ3-7YKF8g" target="_9uf_QctYEeiHKZ3-7YKF8g"/>
+  <argumentElement xsi:type="ARM:AssertedInference" xmi:id="_9ugmVMtYEeiHKZ3-7YKF8g" id="" description="" content="" source="_9uf_RMtYEeiHKZ3-7YKF8g" target="_9uf_QctYEeiHKZ3-7YKF8g"/>
+  <argumentElement xsi:type="ARM:AssertedInference" xmi:id="_9ugmVctYEeiHKZ3-7YKF8g" id="" description="" content="" source="_9uf_RctYEeiHKZ3-7YKF8g" target="_9uf_QctYEeiHKZ3-7YKF8g"/>
+  <argumentElement xsi:type="ARM:AssertedInference" xmi:id="_9ugmVstYEeiHKZ3-7YKF8g" id="" description="" content="" source="_9uf_RstYEeiHKZ3-7YKF8g" target="_9uf_Q8tYEeiHKZ3-7YKF8g"/>
+  <argumentElement xsi:type="ARM:AssertedInference" xmi:id="_9ugmV8tYEeiHKZ3-7YKF8g" id="" description="" content="" source="_9uf_SMtYEeiHKZ3-7YKF8g" target="_9uf_RMtYEeiHKZ3-7YKF8g"/>
+  <argumentElement xsi:type="ARM:AssertedInference" xmi:id="_9ugmWMtYEeiHKZ3-7YKF8g" id="" description="" content="" source="_9uf_SstYEeiHKZ3-7YKF8g" target="_9uf_RMtYEeiHKZ3-7YKF8g"/>
+  <argumentElement xsi:type="ARM:AssertedInference" xmi:id="_9ugmWctYEeiHKZ3-7YKF8g" id="" description="" content="" source="_9uf_TMtYEeiHKZ3-7YKF8g" target="_9uf_RctYEeiHKZ3-7YKF8g"/>
+  <argumentElement xsi:type="ARM:AssertedEvidence" xmi:id="_9ugmWstYEeiHKZ3-7YKF8g" id="" description="" content="" source="_9ugmUMtYEeiHKZ3-7YKF8g" target="_9uf_TMtYEeiHKZ3-7YKF8g"/>
+  <argumentElement xsi:type="ARM:AssertedEvidence" xmi:id="_9ugmW8tYEeiHKZ3-7YKF8g" id="" description="" content="" source="_9uf_T8tYEeiHKZ3-7YKF8g" target="_9uf_SstYEeiHKZ3-7YKF8g"/>
+  <argumentElement xsi:type="ARM:AssertedEvidence" xmi:id="_9ugmXMtYEeiHKZ3-7YKF8g" id="" description="" content="" source="_9uf_TstYEeiHKZ3-7YKF8g" target="_9uf_SMtYEeiHKZ3-7YKF8g"/>
+  <argumentElement xsi:type="ARM:AssertedEvidence" xmi:id="_9ugmXctYEeiHKZ3-7YKF8g" id="" description="" content="" source="_9uf_TctYEeiHKZ3-7YKF8g" target="_9uf_RstYEeiHKZ3-7YKF8g"/>
+  <argumentElement xsi:type="ARM:AssertedContext" xmi:id="_9ugmXstYEeiHKZ3-7YKF8g" id="" description="" content="" source="_9ugmUctYEeiHKZ3-7YKF8g" target="_9uf_QctYEeiHKZ3-7YKF8g"/>
+  <argumentElement xsi:type="ARM:AssertedContext" xmi:id="_9ugmX8tYEeiHKZ3-7YKF8g" id="" description="" content="" source="_9ugmUstYEeiHKZ3-7YKF8g" target="_9uf_S8tYEeiHKZ3-7YKF8g"/>
+  <argumentElement xsi:type="ARM:Claim" xmi:id="_9ugmYMtYEeiHKZ3-7YKF8g" id="J2" description="" content="Branch 2 includes some boundary values" assumed="false" toBeSupported="false"/>
+  <argumentElement xsi:type="ARM:AssertedContext" xmi:id="_9ugmYctYEeiHKZ3-7YKF8g" id="" description="" content="" source="_9ugmYMtYEeiHKZ3-7YKF8g" target="_9uf_SctYEeiHKZ3-7YKF8g"/>
+</ARM:Argumentation>
